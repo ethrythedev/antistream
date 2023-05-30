@@ -1,6 +1,6 @@
 # antistream
 stop using the stream in google classroom 
-it's a simple Tampermonkey script that redirects you to the classwork secton
+it's a simple tampermonkey script that redirects you to the classwork secton
 
 
 ## installation
