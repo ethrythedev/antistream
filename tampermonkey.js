@@ -24,12 +24,12 @@
                 );
                 window.location.href = 'https://classroom.google.com/w'+mySubString+window.location.href.slice(-1)+'/t/all';
             }
-            if(window.location.href.includes('https://classroom.google.com/u/0/c/') && !(window.location.href.includes('/details'))) {
-                var mySubString = window.location.href.substring(
+            if(window.location.href.includes('https://classroom.google.com/u/0/c/') && !(window.location.href.includes('/details')) && !(window.location.href.includes('/all'))) {
+                var mySubString2 = window.location.href.substring(
                     window.location.href.indexOf("c/") + 1,
                     window.location.href.lastIndexOf(window.location.href.slice(-1))
                 );
-                window.location.href = 'https://classroom.google.com/u/0/w'+mySubString+window.location.href.slice(-1)+'/t/all';
+                window.location.href = 'https://classroom.google.com/u/0/w'+mySubString2+window.location.href.slice(-1)+'/t/all';
             }
         }, 500);
     }
