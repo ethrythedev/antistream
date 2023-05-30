@@ -9,6 +9,9 @@
 // @grant        none
 // ==/UserScript==
 
+// WORK IS LICENSED UNDER MOZILLA PUBLIC LICENSE
+// https://github.com/ethrythedev/antistream/blob/main/LICENSE
+
 (function() {
     'use strict';
 
