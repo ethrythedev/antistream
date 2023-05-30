@@ -17,7 +17,7 @@
 
     window.onload = function () {
         setInterval(function(){
-            if(window.location.href.includes('https://classroom.google.com/c/') && !(window.location.href.includes('/details'))) {
+            if(window.location.href.includes('https://classroom.google.com/c/') && !(window.location.href.includes('/details')) && !(window.location.href.includes('/all'))) {
                 var mySubString = window.location.href.substring(
                     window.location.href.indexOf("c/") + 1,
                     window.location.href.lastIndexOf(window.location.href.slice(-1))
